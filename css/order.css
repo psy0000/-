@@ -1,0 +1,267 @@
+body {
+  font-size: 0.1867rem;
+  color: #333;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a,
+li,
+em,
+i,
+b,
+strong {
+  list-style: none;
+  color: #333;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+}
+@media screen and (min-width: 750px) {
+  html,
+  body {
+    font-size: 75px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 32px !important;
+  }
+}
+body {
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 750px;
+  padding-bottom: 1.4133rem;
+}
+header {
+  width: 10rem;
+  height: 1.28rem;
+  background-image: linear-gradient(180deg, #f24c59 0%, #f28c4c 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+header span {
+  display: flex;
+  flex: 1;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 0.5333rem;
+  align-items: center;
+}
+header span::before {
+  content: "";
+  width: 0.2933rem;
+  height: 0.52rem;
+  background-image: url(../res/订单详情/png/4@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0.4267rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+main .section1 {
+  margin-top: 0.48rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.4rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 12px rgba(123, 123, 123, 0.16);
+  box-sizing: border-box;
+}
+main .section1 > span:nth-of-type(1) {
+  margin-top: 0.3467rem;
+  display: flex;
+  align-items: center;
+  color: #494955;
+  font-size: 0.3733rem;
+}
+main .section1 > span:nth-of-type(1) img {
+  width: 0.32rem;
+  height: 0.4267rem;
+  margin-right: 0.1333rem;
+}
+main .section1 p {
+  font-weight: 600;
+  color: #202020;
+  font-size: 0.4267rem;
+  margin-top: 0.16rem;
+}
+main .section1 > em {
+  color: #494955;
+  font-size: 0.3733rem;
+  margin-top: 0.2667rem;
+}
+main .section1 span:nth-of-type(2) {
+  margin-top: 0.4267rem;
+  width: 9.1733rem;
+  height: 0.1333rem;
+  background-image: url(../res/订单详情/png/5@2x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .section2 {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5333rem 0.4rem 0.5333rem;
+}
+main .section2 > div {
+  display: flex;
+}
+main .section2 > div > span {
+  width: 2.6667rem;
+  height: 2.6667rem;
+  background-color: #f4f4f4;
+}
+main .section2 > div > span img {
+  width: 100%;
+  height: 100%;
+}
+main .section2 > div > div {
+  margin-left: 0.2667rem;
+  display: flex;
+  flex-direction: column;
+}
+main .section2 > div > div p {
+  font-weight: 600;
+  color: #202020;
+  font-size: 0.4267rem;
+  width: 5.3067rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+main .section2 > div > div > span {
+  font-weight: 600;
+  color: #fd444c;
+  font-size: 0.4267rem;
+  margin-top: 0.1067rem;
+}
+main .section2 > div > div > span i {
+  font-size: 0.32rem;
+  color: #fd444c;
+}
+main .section2 > div > div > img {
+  width: 1.8933rem;
+  margin-top: 0.3733rem;
+}
+main .section2 > span:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0.48rem;
+}
+main .section2 > span:nth-of-type(1) em {
+  font-weight: 600;
+  color: #202020;
+  font-size: 0.3733rem;
+}
+main .section2 > span:nth-of-type(1) i {
+  color: #494955;
+  font-size: 0.3733rem;
+}
+main .section2 input {
+  margin-top: 0.3733rem;
+  width: 8.2933rem;
+  height: 1.0933rem;
+  background-color: #f4f4f4;
+  border-radius: 0.24rem;
+  border: 0;
+  outline: none;
+  padding: 0.32rem 0 0.24rem 0.4533rem;
+  box-sizing: border-box;
+}
+main .section2 input::placeholder {
+  color: #b0b8c2;
+  font-size: 0.3733rem;
+}
+main .section2 > span:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  margin-top: 0.48rem;
+  align-self: flex-start;
+}
+main .section2 > span:nth-of-type(2) img {
+  width: 0.4rem;
+}
+main .section2 > span:nth-of-type(2) i {
+  font-weight: 600;
+  color: #202020;
+  font-size: 0.3733rem;
+  margin-left: 0.24rem;
+}
+main .section3 {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5333rem 0.4rem;
+  background-color: #fff;
+  margin-top: 0.2667rem;
+}
+main .section3 span {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4267rem;
+}
+main .section3 span i {
+  font-weight: 600;
+  color: #202020;
+  font-size: 0.4267rem;
+}
+main .section3 span em {
+  font-weight: 600;
+  color: #202020;
+  font-size: 0.4267rem;
+}
+main .section3 span b {
+  display: flex;
+  align-items: center;
+}
+main .section3 span b > em {
+  color: #6a6c6b;
+  font-size: 0.4267rem;
+}
+main .section3 span b img {
+  width: 0.2rem;
+  height: 0.3333rem;
+  margin-left: 0.1333rem;
+}
+footer {
+  width: 10rem;
+  height: 1.6rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0.0267rem 0px #e5e5e5 inset;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+footer span {
+  width: 3.92rem;
+  height: 1.3333rem;
+  background-color: #ff6200;
+  border-radius: 1.0667rem;
+  line-height: 1.3333rem;
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 0.4267rem;
+  margin-right: 0.2667rem;
+}
+footer > i {
+  font-weight: 600;
+  color: #f23a3a;
+  font-size: 0.48rem;
+  margin-right: 0.2933rem;
+}

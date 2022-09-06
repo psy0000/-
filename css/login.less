@@ -1,0 +1,147 @@
+@import url(./common.less);
+
+@media screen and (min-width:750px) {
+      html,body{
+        font-size: 75px !important;
+      }
+    
+}
+@media screen and (max-width:320px) {
+    html{
+        font-size: 32px !important;
+    }
+}
+body {
+    color: #f9f9f9;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 750px;
+    // padding-bottom: 1.4133rem;
+    // box-sizing: border-box;
+}
+header{
+    width: 10rem;
+    padding: .7467rem .4rem 0;
+    box-sizing: border-box;
+    div{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        >span{
+            display: flex;
+            color:#06121e;
+            font-size:.48rem;
+            align-items: center;
+            &::before{
+                content: "";
+                width: .3733rem;
+                height: .3733rem;
+                background: url(../res/注册/png/1@2x.png);
+                background-size: 110%;
+                background-repeat: no-repeat;
+                margin-right: .2667rem;
+            }
+        }
+        i{
+            color:#6a6c6b;
+            font-size:.3733rem;
+            margin-top: .32rem;
+        }
+    }
+}
+main{
+    padding: 0 .8rem;
+    margin-top: 1.2267rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    >div.top{
+        display: flex;
+        img{
+            width: 1.6rem;
+            height: 1.6rem;
+        }
+        >div{
+            margin-left: .32rem;
+            display: flex;
+            flex-direction: column;
+            span{
+                font-weight:700;
+                color:#202020;
+                font-size:.5867rem;
+            }
+            i{
+                margin-top: .1067rem;
+                color:#6a6c6b;
+                font-size:.4267rem;
+                white-space: nowrap;
+            }
+        }
+    }
+    >div.center{
+        margin-top: 1.44rem;
+       display: flex;
+       flex-direction: column;
+       >input{
+        padding: .32rem 0;
+        border: none;
+        border-bottom: .0133rem solid #bdc4ce;
+        outline: none;
+        &::placeholder{
+            color:#b0b8c2;
+            font-size:.4533rem;
+        }
+        &:nth-child(2){
+            margin-top: .4533rem;
+        }
+       } 
+    }
+    >div.bottom{
+        display: flex;
+        margin-top: .8rem;
+        flex-direction: column;
+        align-items: center;
+        a:nth-child(1){
+            display: flex;
+            width: 7.28rem;
+            height: 1.3333rem;
+            background: url(../res/登录/png/1@2x.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            i{
+                width: .8533rem;
+                height: .5867rem;
+                background: url(../res/登录/png/2@2x.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin: auto;
+            }
+        }
+        a:nth-child(2){
+            align-self: flex-start;
+            font-weight:700;
+            color:#6a6c6b;
+            font-size:.3733rem;
+            margin-top: .4rem;
+        }
+    }
+}
+footer{
+    margin-top: 1.4667rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    >span{
+        color:#6a6c6b;
+        font-size:.32rem;
+    }
+    >div{
+        margin-top: .5867rem;
+        display: flex;
+        a{
+            img{
+                width: 1.84rem;
+            }
+        }
+    }
+}

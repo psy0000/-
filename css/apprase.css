@@ -1,0 +1,221 @@
+body {
+  font-size: 0.1867rem;
+  color: #333;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a,
+li,
+em,
+i,
+b,
+strong {
+  list-style: none;
+  color: #333;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+}
+@media screen and (min-width: 750px) {
+  html,
+  body {
+    font-size: 75px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 32px !important;
+  }
+}
+body {
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 750px;
+}
+header {
+  width: 10rem;
+  height: 1.28rem;
+  background-image: linear-gradient(180deg, #f24c59 0%, #f28c4c 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+header span {
+  display: flex;
+  flex: 1;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 0.5333rem;
+  align-items: center;
+}
+header span::before {
+  content: "";
+  width: 0.2933rem;
+  height: 0.52rem;
+  background-image: url(../res/订单详情/png/4@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0.4267rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+main .section1 {
+  background-color: #fff;
+  padding: 0 0.4rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+main .section1::after {
+  content: "";
+  display: block;
+  width: 9.6267rem;
+  height: 0px;
+  border-top: 0.0267rem solid;
+  border-color: #ededed;
+  margin-top: 0.3733rem;
+}
+main .section1 > span {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5067rem;
+}
+main .section1 > span div {
+  display: flex;
+}
+main .section1 > span div img {
+  width: 0.5333rem;
+  margin-right: 0.24rem;
+}
+main .section1 > span div > span {
+  font-weight: 600;
+  color: #202020;
+  font-size: 0.4267rem;
+}
+main .section1 > span > span {
+  font-weight: 600;
+  color: #202020;
+  font-size: 0.4267rem;
+}
+main .section2 {
+  background-color: #fff;
+  position: relative;
+  padding-bottom: 1.3067rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+main .section2 > div > div {
+  display: flex;
+}
+main .section2 > div > div span {
+  padding: 0.2rem 0.5333rem;
+  box-sizing: border-box;
+  margin-right: 0.2667rem;
+  color: #6a6c6b;
+  font-size: 0.3733rem;
+  background-color: #f2f2f2;
+  border-radius: 2.6667rem;
+}
+main .section2 > div > div span:last-child {
+  margin-right: 0;
+}
+main .section2 > div div:nth-child(1) {
+  margin-top: 0.5333rem;
+}
+main .section2 > div div:nth-child(2) {
+  margin-top: 0.2667rem;
+}
+main .section2 > span {
+  position: absolute;
+  width: 0.2rem;
+  height: 0.2rem;
+  border: 0.0533rem solid;
+  border-color: #cbcbcb #cbcbcb transparent transparent;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: rotate(135deg);
+  bottom: 0.48rem;
+}
+main .section3 {
+  background-color: #fff;
+  margin-top: 0.2667rem;
+  width: 10rem;
+  padding: 0 0.5333rem;
+  box-sizing: border-box;
+}
+main .section3 .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .section3 .top > span {
+  display: flex;
+}
+main .section3 .top > span img {
+  width: 1.0667rem;
+  margin-right: 0.16rem;
+}
+main .section3 .top > span > div {
+  display: flex;
+  flex-direction: column;
+}
+main .section3 .top > span > div em {
+  display: flex;
+}
+main .section3 .top > span > div em i {
+  font-weight: 500;
+  color: #000000;
+  font-size: 0.32rem;
+}
+main .section3 .top > span > div em img {
+  width: 1.08rem;
+  margin-left: 0.16rem;
+}
+main .section3 .top > span > div > i {
+  color: #6a6c6b;
+  font-size: 0.32rem;
+}
+main .section3 .top > span:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+main .section3 .top > span:nth-child(2) b {
+  display: flex;
+}
+main .section3 .top > span:nth-child(2) b img {
+  width: 0.32rem;
+  height: 0.32rem;
+  margin-right: 0.1333rem;
+}
+main .section3 .top > span:nth-child(2) b img:last-child {
+  margin-right: 0;
+}
+main .section3 .top > span:nth-child(2) > i {
+  color: #6a6c6b;
+  font-size: 0.32rem;
+  margin-top: 0.08rem;
+}
+main .section3 > p {
+  color: #b0b8c2;
+  font-size: 0.32rem;
+  margin-top: 0.2667rem;
+}
+main .section3 > i {
+  display: flex;
+  flex-direction: column;
+  color: #494955;
+  font-size: 0.3733rem;
+  margin-top: 0.2667rem;
+}
+main .section3 ul {
+  margin-top: 0.2667rem;
+  display: flex;
+  justify-content: space-between;
+}
+main .section3 ul li img {
+  width: 2.8rem;
+}
